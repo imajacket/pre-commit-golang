@@ -93,3 +93,8 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: go-betteralign
+    name: 'go-betteralign'
+    entry: run-go-betteralign.sh
+    language: 'script'
+    description: "Runs `betteralign -apply .`, requires https://github.com/dkorunic/betteralign"
